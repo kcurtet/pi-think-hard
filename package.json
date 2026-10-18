@@ -1,0 +1,14 @@
+{
+	"name": "pi-think-hard",
+	"version": "0.1.0",
+	"description": "Prefix a prompt with + to run that turn at max thinking effort in pi",
+	"keywords": ["pi-package"],
+	"license": "MIT",
+	"repository": "github:kcurtet/pi-think-hard",
+	"pi": {
+		"extensions": ["./index.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	}
+}
